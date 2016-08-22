@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var host = '192.168.178.195',
+    var host = 'localhost',
         port = 4080,
         ctx = document.querySelector('#ctx'),
         ws = new WebSocket('ws://'+host+':'+port, ['soap', 'xmpp']),
